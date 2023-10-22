@@ -1,0 +1,567 @@
+#image3 {
+    width: 140px;
+    height: 67px;
+    /* flex-shrink: 0; */
+    /* background: url("../images/image\ 3.png"), lightgray 50% / cover no-repeat; */
+    margin-top: 41px;
+    /* position: relative; */
+    left: 83px;
+    /* border: 0px; */
+}
+
+#rectangle1 {
+    width: 265px;
+    height: 928px;
+    /* flex-shrink: 0; */
+    border-radius: 25px;
+    background: #FFF;
+    margin-left: 20px;
+    margin-top: 25px;
+    /* width: fit-content; */
+}
+
+body {
+    width: 1440px;
+    height: 1234px;
+    background: var(--sidebar-bg, #363740);
+    margin: 0;
+    /* width: 100vw; */
+    overflow-x: hidden;
+}
+
+#bg {
+    width: 1440px;
+    height: 1234px;
+    flex-shrink: 0;
+    background: var(--grayscale-bg, #F7F8FC);
+}
+
+#sheet {
+    width: 803px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid var(--grayscale-divider, #DFE0EB);
+    background: var(--grayscale-white, #FFF);
+    margin-top: 617px;
+    margin-left: 599px;
+}
+
+body * {
+    /* position: relative; */
+
+    font-family: Mulish;
+    position: absolute;
+}
+
+#rectangle14 {
+    border-radius:  10px 10px 0px 0px;
+    background: rgba(236, 248, 246, 0.30);
+    left: 44px;
+    width: 218px;
+    height: 60px;
+    flex-shrink: 0;
+    top: 122px;
+}
+
+#dashboard21 {
+    /* background: url("../images/dashboard-21.png"); */
+    left: 77px;
+    top: 139px;
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+#dashboard {
+    color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+    left: 116px;
+    top: 141px;
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url("../fonts/Mulish-Regular.ttf");
+    /* font-weight: normal;
+    font-style: normal;*/
+}
+
+@font-face {
+    font-family: "Mulish-Bold";
+    src: url("../fonts/Mulish-Bold.ttf");
+    /* font-weight: normal;
+    font-style: normal; */
+}
+
+#rectangle2 {
+    width: 218px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #ECF8F6;  top: 182px;
+    left: 44px;
+}
+
+#Payments {
+    color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+    left: 116px;
+    top: 200px;
+}
+
+#card {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    /* background: url("../images/card.png"), lightgray 50% / cover no-repeat; */
+    left: 76px;
+    top: 197px;
+}
+
+#Overview {
+    width: 189px;
+    height: 34px;
+    flex-shrink: 0;
+    color: var(--grayscale-black, #252733);
+
+    /* Bold 24 (0.3 px) */
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    left: 322px;
+    top: 35px;
+}
+
+#Rectangle3 {
+    width: 248px;
+    height: 121px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #FFA755 0%, #EF7300 100%);
+    top: 122px;
+    left: 319px;
+}
+
+#Ellipse1 {
+    top: 150px;
+    left: 342px;
+}
+
+#money1 {
+    left: 355px;
+    top: 161px;
+}
+
+#d1800000 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    /* 80% */
+    letter-spacing: 0.2px;
+    left: 418px;
+    top: 157px;
+}
+
+#MobileMoney {
+    color: #FFF;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+    top: 190px;
+    left: 418px;
+}
+
+#Rectangle7 {
+    width: 248px;
+    height: 121px;
+    flex-shrink: 0;
+    top: 122px;
+    left: 598px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #FFDA55 0%, #F4BF00 100%);
+}
+
+#d15500000 {
+
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    /* 80% */
+    letter-spacing: 0.2px;
+    top: 157px;
+    left: 696px;
+}
+
+#credit-card1 {
+    top: 160px;
+    left: 631px;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+#Ellipse2 {
+    top: 150px;
+    left: 620px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+#CardTransactions {
+    top: 190px;
+    left: 696px;
+    color: #FFF;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+#iconsearch {
+    top: 44px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    left: 1120px;
+}
+
+#iconnotificationsnew {
+    top: 44px;
+    left: 1160px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+#dividerlinevertical {top: 40px;left: 1208px;/* width: 0px; *//* height: 32px; */flex-shrink: 0;}
+#name{
+    width: 109px;
+height: 18px;
+flex-shrink: 0;color: var(--grayscale-black, #252733);
+text-align: right;
+
+/* Semibold 14 (0.2 px) */
+font-family: Mulish;left: 1240px;top: 43px;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}#profilecircle{
+    width: 44px;
+height: 44px;
+flex-shrink: 0;stroke-width: 1.5px;
+stroke: var(--grayscale-divider, #DFE0EB);
+top: 30px;left: 1363px;
+}#mheader{
+    /* width: 63.333px; */
+    /* height: 43.333px; */
+    flex-shrink: 0;
+    top: 32px;
+    left: 1365px;
+    border-radius: 50%;
+}#rectangle9{
+    top: 122px;left: 316px;width: 1091px;
+    height: 831px;
+    flex-shrink: 0;border-radius: 10px;
+    background: #FFF;
+}#PAYMENTMETHOD{
+    top: 190px;left: 345px;color: #272727;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    letter-spacing: 0.2px;
+}#ChooseaPaymentMethod{
+    top: 227px;left: 345px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#rectangle15{
+    top: 276px;left: 345px;width: 209px;
+    height: 105px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 2px solid #2196F3;
+    background: #F9FDFC;
+}#image8{
+    top: 288px;left: 410px;
+}#Card{
+    top: 355px;left: 429px;
+}#Vector{
+    top: 285px;left: 518px;
+}#Rectangle17{
+    top: 276px;left: 582px;width: 209px;
+    height: 105px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#image6{
+    top: 273px;left: 636px;
+}#Rectangle18{
+    top: 276px;left: 819px;width: 209px;
+    height: 105px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#image7{
+    top: 298px;left: 862px;
+}#BillingAddress{
+   top:422px;left: 335px;
+}#CardDetails{
+top: 422px;left: 718px;color: #272727;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 100% */
+letter-spacing: 0.2px;
+}#PaymentSummary{
+    top: 422px;left: 1130px;color: #272727;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+    letter-spacing: 0.2px;
+}#FullNames{
+    top: 463px;left: 345px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#CardNumber{
+    top: 463px;left: 728px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#Rectangle19{
+    top: 488px;left: 344px;width: 353px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Rectangle23{
+    top: 488px;left: 727px;width: 287px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#image9{
+    top: 478px;left: 1023px;
+}#Rectangle28{
+    width: 256px;
+height: 195px;
+flex-shrink: 0;border-radius: 5px;
+border: 1px solid #ECF8F6;
+background: #F9FDFC;top: 483px;left: 1130px;
+}#MoneyTransfertoMukisaJohn4506284300890001{
+    top: 507px;left: 1147px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#Sub-total{
+    top: 591px;left: 1147px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#UGX50000{
+    top: 591px;left: 1281px;
+}#TOTAL{
+    top: 619px;left: 1148px;color: #272727;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+}#UGX500002{
+    top: 619px;left: 1268px;color: #272727;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+}#Address1{
+    top: 538px;left: 345px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#ExpiryDate{
+    top: 538px;left: 728px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#CCV{
+    top: 538px;left: 913px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#Rectangle20{
+    top: 563px;left: 344px;width: 353px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Rectangle24{
+    top: 563px;left: 727px;width: 168px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Rectangle25{
+    top: 563px;left: 912px;width: 168px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Address2{
+    top: 613px;left: 345px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#CardHolderName{
+    top: 613px;left: 728px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#Rectangle21{
+    top: 638px;left: 344px;width: 353px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Rectangle26{
+    top: 638px;left: 727px;width: 353px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#ZipCode{
+    top: 688px;left: 345px;color: #272727;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#Rectangle22{
+    top: 713px;left: 344px;width: 353px;
+    height: 40px;
+    flex-shrink: 0;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Rectangle27{
+    top: 703px;left: 727px;width: 353px;
+    height: 50px;
+    flex-shrink: 0;border-radius: 5px;
+    background: #2196F3;
+}#ConfirmPayment{
+    top: 718px;left: 844px;color: #FFF;
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}#MMYY{
+    top: 573px;left: 744px;color: rgba(39, 39, 39, 0.31);
+
+    /* Semibold 14 (0.2 px) */
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}

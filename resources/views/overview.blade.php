@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/overview.css?<?php echo time() ?>"> -->
     <link rel="stylesheet" type="text/css" href="{{ asset('/css/overview.css') }}">
     <!-- {{ asset('css/style.css') }} -->
-    <title>overview</title>
+    <title>Dashboard</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,11 +29,11 @@
             
          -->
     <!-- <div id="sheet"></div> -->
-    <div id="rectangle2"> </div>
+    <div id="rectangle2" onclick="gotom('payments')"> </div>
 
-    <img id="card" src="{{ asset('/images/card.png') }}">
+    <img id="card" onclick="gotom('payments')" src="{{ asset('/images/card.png') }}">
     <!-- #F7F8FC -->
-    <span id="Payments">Payments</span>
+    <span id="Payments" onclick="gotom('payments')">Payments</span>
     <span id="Overview">Overview</span>
     <div id="Rectangle3"></div>
     <img src="{{ asset('/images/Ellipse1.png') }}" id="Ellipse1">
@@ -206,5 +206,9 @@ function zoomPage() {
 
       document.body.style.zoom = zoomLevel;
     }
-
+function gotom(page){
+    // if(page == 'payments'){
+        window.location.href = "{{ url('/payments') }}";
+    // }
+}
 </script>

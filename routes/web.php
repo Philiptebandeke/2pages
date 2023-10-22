@@ -19,7 +19,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('overview');
 });
-
-Route::get('/about', function () {
-    return view('about');
+Route::get('/overview', function () {
+    return view('overview');
+});
+Route::get('/payments', function () {
+    return view('payments');
+});
+Route::get('/payments2', function () {
+    return view('payments2');
 });
