@@ -48,13 +48,14 @@
 <div id="rectangle9"></div>
 <div id="PAYMENTMETHOD">PAYMENT METHOD</div>
 <div id="ChooseaPaymentMethod">Choose a Payment Method</div>
-<div id="rectangle15" onclick="gotom('payments')" ></div>
-<img id="image8"  onclick="gotom('payments')" src="{{ asset('/images/image%208.png') }}">
-<div id="Card" onclick="gotom('payments')" >Card</div>
+<div id="rectangle15" onclick="gotomb(1)" ></div>
+<img id="image8"  onclick="gotomb(1)" src="{{ asset('/images/image%208.png') }}">
+<div id="Card" onclick="gotomb(1)" >Card</div>
 <div id="Rectangle17"></div>
 <img id="image6"   src="{{ asset('/images/image%206.png') }}">
 <div id="Rectangle18"></div>
 <img id="image7" src="{{ asset('/images/image%207.png') }}">
+<!-- <form> -->
 <div id="BillingAddress">1. Billing Address</div>
 <div id="CardDetails">2. Mobile Money Details</div>
 <div id="PaymentSummary">Payment Summary</div>
@@ -86,6 +87,7 @@
 <img id="image11" src="{{ asset('/images/i11.png') }}">
 <div id="Rectangle25"></div>
 <div id="d731000000">731 000 000</div>
+<!-- </form> -->
 </body>
 
 </html>

@@ -565,3 +565,287 @@ background: #F9FDFC;top: 483px;left: 1130px;
     line-height: 20px; /* 142.857% */
     letter-spacing: 0.2px;
 }
+form{
+    position: unset;
+}.turo{
+    
+border-radius: 5px;
+    
+border: 1px solid #ECF8F6;
+    
+background: #F9FDFC;
+    
+width: -webkit-fill-available;
+    
+height: -webkit-fill-available;
+}#form2{
+    display: none;
+}
+/* for payments2 below */
+#BillingAddress{
+    top:422px;left: 335px;
+ }#CardDetails{
+ top: 422px;left: 718px;color: #272727;
+ font-family: Mulish;
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 20px; /* 100% */
+ letter-spacing: 0.2px;
+ }#PaymentSummary{
+     top: 422px;left: 1130px;color: #272727;
+     font-family: Mulish;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 100% */
+     letter-spacing: 0.2px;
+ }#FullNames{
+     top: 463px;left: 345px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#CardNumber{
+     top: 463px;left: 728px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle19{
+     top: 488px;left: 344px;width: 353px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Rectangle23{
+     top: 488px;left: 727px;width: 287px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#image9{
+     top: 478px;left: 1023px;
+ }#Rectangle28{
+     width: 256px;
+ height: 195px;
+ flex-shrink: 0;border-radius: 5px;
+ border: 1px solid #ECF8F6;
+ background: #F9FDFC;top: 483px;left: 1130px;
+ }#MoneyTransfertoMukisaJohn4506284300890001{
+     top: 507px;left: 1147px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Sub-total{
+     top: 591px;left: 1147px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#UGX50000{
+     top: 591px;left: 1281px;
+ }#TOTAL{
+     top: 619px;left: 1148px;color: #272727;
+     font-family: Mulish;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 20px; /* 125% */
+     letter-spacing: 0.2px;
+ }#UGX500002{
+     top: 619px;left: 1268px;color: #272727;
+     font-family: Mulish;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 20px; /* 125% */
+     letter-spacing: 0.2px;
+ }#Address1{
+     top: 538px;left: 345px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#ExpiryDate{
+     top: 538px;left: 728px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#CCV{
+     top: 538px;left: 913px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle20{
+     top: 563px;left: 344px;width: 353px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Rectangle24{
+     top: 563px;
+     left: 727px;
+     width: 353px;
+     height: 40px;
+     flex-shrink: 0;
+     border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Rectangle25{
+     top: 563px;left: 912px;width: 168px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Address2{
+     top: 613px;left: 345px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#CardHolderName{
+     top: 613px;left: 728px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle21{
+     top: 638px;left: 344px;width: 353px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Rectangle26{
+     top: 638px;left: 727px;width: 353px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#ZipCode{
+     top: 688px;left: 345px;color: #272727;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle22{
+     top: 713px;left: 344px;width: 353px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#Rectangle27{
+     top: 703px;left: 727px;width: 353px;
+     height: 50px;
+     flex-shrink: 0;border-radius: 5px;
+     background: #2196F3;
+ }#ConfirmPayment{
+     top: 718px;left: 844px;color: #FFF;
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#MMYY{
+     top: 573px;left: 744px;color: rgba(39, 39, 39, 0.31);
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle23{
+     top: 488px;left: 727px;width: 101px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#d256{
+     top: 498px;left: 744px;color: rgba(39, 39, 39, 0.31);
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#image11{
+     top: 496px;left:786px;
+ }#Rectangle25{
+     top: 487px;left: 839px;width: 241px;
+     height: 40px;
+     flex-shrink: 0;border-radius: 5px;
+     border: 1px solid #ECF8F6;
+     background: #F9FDFC;
+ }#d731000000{
+     top: 498px;left: 854px;color: rgba(39, 39, 39, 0.31);
+ 
+     /* Semibold 14 (0.2 px) */
+     font-family: Mulish;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 20px; /* 142.857% */
+     letter-spacing: 0.2px;
+ }#Rectangle17_2{
+    top: 276px;left: 582px;width: 209px;
+    height: 105px;border-radius: 5px;
+    border: 2px solid #2196F3;
+    background: #F9FDFC;
+}#rectangle15_2{
+    top: 276px;left: 345px;width: 209px;
+    height: 105px;border-radius: 5px;
+    border: 1px solid #ECF8F6;
+    background: #F9FDFC;
+}#Vector_2{
+    top: 285px;left: 749px;
+}
